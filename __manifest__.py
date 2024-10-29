@@ -30,7 +30,7 @@
     "depends": ["product", "product_replenishment_cost"],
     "data": [
         "wizards/product_prices_update_views.xml",
-        "views/views.xml",
+        #"views/views.xml",
     ],
     "demo": [],
     "installable": True,
