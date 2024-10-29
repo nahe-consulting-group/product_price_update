@@ -319,7 +319,7 @@ class ProductPricesUpdateWizardResult(models.TransientModel):
             elif price_type == 'standard_price':
                 old_price = product_tmpl.standard_price
             elif price_type == 'replenishment_base_cost':
-                    old_price = prodct.replenishment_base_cost
+                    old_price = product_tmpl.replenishment_base_cost
             else:
                 raise UserError(
                     _('Price type "%s" is not implemented') % (price_type))
