@@ -210,7 +210,7 @@ class ProductPricesUpdateWizard(models.TransientModel):
             raise UserError(_('You must select at least one product'))
         if self.check is True:
             actions = self.env.ref(
-                'product_prices_update.action_prices_update_wizard_result')
+                'product_prices_update_extra.action_prices_update_wizard_result')
             if actions:
                 action_read = actions.read()[0]
                 action_read['context'] = {
