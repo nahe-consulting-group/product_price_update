@@ -18,7 +18,7 @@
 #
 ##############################################################################
 {
-    "name": "Product Prices Update",
+    "name": "Product Prices Update Extra",
     "version": "13.0.2.0.0",
     "category": "Product",
     "sequence": 14,
